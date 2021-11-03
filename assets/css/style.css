@@ -1,0 +1,282 @@
+/*=======================================
+                Fonts
+=======================================*/                
+
+@font-face {
+    font-family: Graphik-Medium;
+    src: url(../fonts/Graphik-Medium.ttf);
+}
+
+.graphikMedium{
+    font-family: Graphik-Medium;
+}
+
+@font-face {
+    font-family: Graphik-Regular;
+    src: url(../fonts/Graphik-Regular.woff);
+}
+
+.graphikRegular{
+    font-family: Graphik-Regular;
+}
+
+@font-face {
+    font-family: Theinhardt-Lt;
+    src: url(../fonts/Theinhardt-Lt.woff);
+}
+
+.theinhardtLt{
+    font-family: Theinhardt-Lt;
+}
+
+@font-face {
+    font-family: TiemposHeadline-Semibold;
+    src: url(../fonts/TiemposHeadline-Semibold.woff);
+}
+
+.tiemposHeadlineSemibold{
+    font-family: TiemposHeadline-Semibold;
+}
+
+/*=======================================
+            General Styles
+=======================================*/    
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0 7vw;
+}
+
+/*=======================================
+                Header
+=======================================*/ 
+
+header{
+    background: url(../img/home_hero.png) center/contain no-repeat;
+}
+
+header>nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 2vh 5vw;
+}
+
+header>nav>ul{
+    list-style: none;
+    display: flex;
+}
+
+header>nav>ul>li{
+    padding: 0 1vw;
+}
+
+header>nav>h2{
+    font-size: 1.5rem;
+}
+
+header>nav>a{
+    padding: 0.7vh 2vw;
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+header>h1{
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 65vh;
+    font-size: 2.5rem;
+}
+
+/*=======================================
+            Main // Section 1 - $149
+=======================================*/ 
+
+main>section:nth-of-type(1){
+    display: flex;
+    padding: 10vh 0;
+}
+
+main>section:nth-of-type(1)>p{
+    width: 60%;
+    font-size: 1.3rem;
+    line-height: 4vh;
+}
+
+main>section:nth-of-type(1)>div{
+    width: 15vw;
+    padding-left: 3vw;
+}
+
+main>section:nth-of-type(1)>div>h3{
+    font-size: 4rem;
+}
+
+/*=======================================
+    Main // Section 2 - Deliverables
+=======================================*/ 
+
+main>section:nth-of-type(2){
+    display: flex;
+    padding: 10vh;
+    flex-wrap: wrap;
+}
+
+main>section:nth-of-type(2)>img{
+    width: 50%;
+    margin-right: 3vw;
+}
+
+main>section:nth-of-type(2)>div>h2{
+    font-size: 3rem;
+    padding-bottom: 5vh;
+}
+
+main>section:nth-of-type(2)>div>h4{
+    padding: 2vh 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+main>section:nth-of-type(2)>div>p{
+    color: #848689;
+}
+
+/*=======================================
+    Main // Section 3 - how it works
+=======================================*/ 
+
+main>section:nth-of-type(3){
+    margin: 10vh 0;
+    background: #eee;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main>section:nth-of-type(3)>img{
+    width: 50%;
+}
+
+main>section:nth-of-type(3)>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+}
+
+main>section:nth-of-type(3)>div>h2{
+    font-size: 4rem;
+    padding: 1.5vh;
+}
+
+main>section:nth-of-type(3)>div>ol{
+    padding-left: 4vw;
+}
+
+main>section:nth-of-type(3)>div>ol>li,
+main>section:nth-of-type(3)>div>p {
+    color: #848689;
+    font-size: 1.4rem;
+}
+
+/*=======================================
+    Main // Section 4 - Critique
+=======================================*/ 
+
+main>section:nth-of-type(4){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh 0;
+    border-bottom: 1px solid #848689;
+    position: relative;
+}
+
+main>section:nth-of-type(4)>h2{
+    font-size: 4rem;
+    padding-bottom: 3vh;
+}
+
+main>section:nth-of-type(4)>p{
+    color: #848689;
+    font-size: 1.3rem;
+    padding-top: 1vh;
+}
+
+main>section:nth-of-type(4)>img:nth-of-type(1){
+    padding-top: 15vh;
+}
+
+main>section:nth-of-type(4)>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 25%;
+}
+
+main>section:nth-of-type(4)>img:nth-of-type(2){
+    width: 45%;
+    position: absolute;
+    top: 620px;
+    right: 55px;
+}
+
+main>section:nth-of-type(4)>div>span{
+    color: #848689;
+    line-height: 5vh;
+    font-size: 1.4rem;
+}
+
+/*=======================================
+                Footer
+=======================================*/ 
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer>h2{
+    font-size: 4rem;
+    padding: 10vh 0;
+}
+
+footer>div>img{
+    width: 10vw;
+}
+
+footer>div>span{
+    color: #848689;
+    font-size: 1.3rem;
+}
+
+footer>div>span>a{
+    color: #000000;
+    text-decoration: none;
+}
+
+/*=======================================
+                Media Query
+=======================================*/ 
+
+@media only screen and (max-width: 600px){
+
+section:nth-of-type(4)>img:nth-of-type(1){
+    width: 100%;
+}
+
+main>section:nth-of-type(4)>img:nth-of-type(2){
+    position: absolute;
+    top: 700px;
+}
+
+}
